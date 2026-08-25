@@ -1,0 +1,10 @@
+{
+  "name": "moneyplughub",
+  "entry": "./server.mjs",
+  "routes": [
+    "/api/paywall/check",
+    "/api/billing/subscribe",
+    "/api/sigil/points/buy"
+  ],
+  "commands": ["start", "stop", "status"]
+}
